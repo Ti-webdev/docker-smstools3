@@ -40,3 +40,8 @@ sudo systemctl disable ModemManager
 ```sh
 docker-compose up -d
 ```
+
+## Send SMS
+```sh
+echo -e "To: +11111111111\nAlphabet: UTF-8\n\nIt's works :)" > spool/sms/outgoing/$(date +%s)
+```
