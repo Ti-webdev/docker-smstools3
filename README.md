@@ -29,6 +29,7 @@ services:
 
 ```sh
 mkdir -p spool/sms/sent spool/sms/failed spool/sms/checked spool/sms/outgoing spool/sms/incoming
+```
 
 ### Stop (and disable if you want)
 ```sh
